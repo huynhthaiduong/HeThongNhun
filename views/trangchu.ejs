@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Nuc140 Game</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery.js"></script>
+    <script src="xuly.js" ></script>
+    <script src="giaodien.js"></script>
+    <script src="move.js"></script>
+    <!-- <script src="canvas.js"></script> -->
+    <link rel ="stylesheet"type="text/css"href="layout.css" />
+    <style>
+      canvas {
+        width: 1000px;
+        height: 640px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id = "Panel" class="infoPanel">
+          <hr>
+          <p id="gameInfo">SOLDIER</p>
+          <hr>
+          <div class="infoPlayer1" id="TURN">
+          </div>
+          <div class="infoPlayer" id="infoHostArmy0">
+            <h1> SOLDIER doi phuong: </h1>
+          </div>
+
+          <p class="infoPlayer" id="infoHostArmy"></p>
+    </div>
+    <div id="trangchu">
+      <div id="loginform">
+          <section class="login">
+          	<div class="titulo">LOGIN</div>
+          	<form action="#" method="post" enctype="application/x-www-form-urlencoded">
+              	<input id="id" type="text" required title="Username required" placeholder="Username" data-icon="U">
+                  <input  id="passwords" type="password" required title="Password required" placeholder="Password" data-icon="x">
+                  <div class="olvido">
+                  	<div class="col"><a href="#" title="register">Register</a></div>
+                    <div class="col0"><a href="#" title="how to play">How to play ?</a></div>
+                  </div>
+                  <a href="#" class="enviar">Submit</a>
+              </form>
+              </section>
+            </div>
+              <div id="registerform">
+              <section class="register">
+               <div class="titulo">REGISTER</div>
+               <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                 <input id="id1" type="text" required title="Username required" placeholder="Username" data-icon="U">
+                   <input id="passwords1" type="password" required title="Password required" placeholder="Password" data-icon="x">
+                   <input id="joy" type="text" required title="code" placeholder="serial number joystick " data-icon="x">
+                   <div class="olvido">
+                     <div class="col1"><a href="#" title="login">Login</a></div>
+                   </div>
+                   <a href="#" class="dangki">Submit</a>
+                 </form>
+               </section>
+             </div>
+             <div id="creatroomform">
+                 <section class="room">
+                  <div class="titulo">ROOM MENU</div>
+                  <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                     <input id="id2" type="text" required title="CODE ROOM" placeholder="Enter name here" data-icon="U">
+                     <a href="#" class="join">join</a>
+                     <input id="id3" type="text" required title="ROOM NAME" placeholder="Room name" data-icon="U">
+                     <a href="#" class="creatroom">Creat room</a>
+                     </form>
+                     </section>
+                   </div>
+             <div id="roomname">
+                 <section id="selRoom"class="name">
+                  <!-- <div id="roomtxt" class="titulo"></div> -->
+                  <form  action="#" method="post" enctype="application/x-www-form-urlencoded">
+                  <a href="#" class="Play">PLAY</a>
+                  </form>
+                     </section>
+                   </div>
+                   <div id="roomacc">
+                       <section id="selRoom1"class="name1">
+                              <!-- <div id="roomtxt" class="titulo"> 11111111111111</div> -->
+                              <form  action="#" method="post" enctype="application/x-www-form-urlencoded">
+                              <!-- <a href="#" class="Acc">ACCEPT</a> -->
+                              </form>
+                           </section>
+                         </div>
+
+                       <div id="howtoplayform">
+                         <section class="howtoplay">
+                           <div class="titulo">HOW TO PLAY ?</div>
+                           <form>
+                             <div class="how">
+                                <p>Su dung phim <ins>mui ten</ins> de di chuyen.</p>
+                                <p>Su dung phim <ins>space</ins> de chon.</p>
+                             </div>
+                             <a href="#" class="play">PLAY</a>
+                           </form>
+                         </section>
+                       </div>
+
+                       <div id="scoreform">
+                         <section class="score">
+                           <div class="titulo">FINISH</div>
+                           <div class="titulo">YOU LOSE</div>
+                           <form  action="#" method="post" enctype="application/x-www-form-urlencoded">
+
+                            <!-- <a href="#" class="again">PLAY AGAIN</a> -->
+                           </form>
+                         </section>
+                       </div>
+                       <div id="scoreform1">
+                         <section class="score">
+                           <div class="titulo">FINISH</div>
+                           <div class="titulo">YOU WIN</div>
+                           <form  action="#" method="post" enctype="application/x-www-form-urlencoded">
+
+                            <!-- <a href="#" class="again">PLAY AGAIN</a> -->
+                           </form>
+                         </section>
+                       </div>
+
+    </div>
+  <canvas id="canvas1"></canvas>
+  <script src="canvas.js"></script>
+<script >
+
+  </script>
+  </script>
+  </body>
+</html>
