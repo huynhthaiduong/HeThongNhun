@@ -1,0 +1,173 @@
+Dependencies for Project 'NuProject', Target 'NuProject': (DO NOT MODIFY !)
+F (..\Library\Device\Nuvoton\NUC131\Source\system_NUC131.c)(0x5ABB8C04)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\system_nuc131.o --omf_browse .\objects\system_nuc131.crf --depend .\objects\system_nuc131.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
+F (..\Library\Device\Nuvoton\NUC131\Source\ARM\startup_NUC131.s)(0x5ABB8C04)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526"--list .\listings\startup_nuc131.lst --xref -o .\objects\startup_nuc131.o --depend .\objects\startup_nuc131.d)
+F (.\main.c)(0x5BF7DAAF)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EE94C)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
+F (..\Library\StdDriver\src\clk.c)(0x5ABB8C04)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
+F (..\Library\StdDriver\src\gpio.c)(0x5ABB8C04)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
+F (..\Library\StdDriver\src\sys.c)(0x5ABB8C04)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
+F (..\Library\StdDriver\src\uart.c)(0x5ABB8C04)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EE94C)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
+F (..\Library\StdDriver\src\retarget.c)(0x5ABB8C04)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EE94C)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
+F (..\Library\StdDriver\src\adc.c)(0x5ABB8C04)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\CMSIS\Include -I ..\Library\Device\Nuvoton\NUC131\Include -I ..\Library\StdDriver\inc-I.\RTE\_NuProject-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\Library\Device\Nuvoton\NUC131\Include\NUC131.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x5ABB8C04)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EE94E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x5ABB8C04)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x5ABB8C04)
+I (..\Library\Device\Nuvoton\NUC131\Include\system_NUC131.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SYS.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\ADC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CAN.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\FMC.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\GPIO.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\I2C.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\PWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\BPWM.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\SPI.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\TIMER.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\WWDT.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\UART.h)(0x5ABB8C04)
+I (..\Library\StdDriver\inc\CLK.h)(0x5ABB8C04)
